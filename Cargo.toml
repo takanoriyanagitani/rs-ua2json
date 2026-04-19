@@ -3,7 +3,16 @@ name = "rs-ua2json"
 version = "0.1.0"
 edition = "2024"
 
+description = "Simple CLI to convert the user agent string."
+license = "Apache-2.0"
+repository = "https://github.com/takanoriyanagitani/rs-ua2json"
+homepage = "https://github.com/takanoriyanagitani/rs-ua2json"
+documentation = "https://docs.rs/rs-ua2json/latest"
+keywords = ["user-agent", "converter", "json", "wasi"]
+
 exclude = [
+	"rs-ua2json.wasm",
+	"opt.wasm",
 ]
 
 [lints.rust]
